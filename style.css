@@ -24,7 +24,10 @@ body{
 	);
 	font-family:monospace ;
 }
-
+h1{
+	color: #fbf8e7;
+	text-align: center;
+}
 .wrapper{
 	border: 2px solid white;
 	padding: 28px 38px;
