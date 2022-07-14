@@ -1,0 +1,106 @@
+/*************
+ * Author: Edona Zefi
+ * Date:  12 of July 2022
+ * Description: Personal Website CSS
+ * **********/
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' #43737d,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+body{
+	height: 100vh;
+	background: rgb(232,231,216);
+	background: rgb(232,231,216);
+	background: linear-gradient(
+		45deg, 
+		rgba(232,231,216,1) 0%, 
+		rgba(251,248,231,1) 34%, 
+		rgba(113,200,210,1) 66%, 
+		rgba(67,115,125,1) 100%
+	);
+	font-family:monospace ;
+}
+
+.wrapper{
+	border: 2px solid white;
+	padding: 28px 38px;
+	width: 40%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+
+}
+#newTask{
+	background-color: floralwhite;
+	padding: 28px 18px;
+	border-radius: 6px;
+	box-shadow:0 12px 24px rgba(0, 0, 0, 0.4) ;
+	position: relative;
+}
+#newTask input{
+	background-color:#fbf8e7;
+	width: 70%;
+	height: 44px;
+	border: 2px solid #e8e7d8;
+	color: #43737d ;
+	position: relative;
+	font-weight: bold;
+}
+#newTask input:focus{
+	outline: none;
+	border-color: #43737d ;
+}
+#newTask button{
+	position: relative;
+	float: right;
+	width: 20%;
+	height: 44px;
+	border-radius: 2px;
+	background-color: #43737d ;
+	color: #e8e7d8;
+	border: none;
+}
+
+#tasks{
+	background-color:floralwhite;
+	border-radius: 12px;
+	padding: 32px 22px;
+	margin-top: 40px;
+	width: 94%;
+	position: relative;
+	box-shadow:0 12px 24px rgba(0, 0, 0, 0.4) ;
+
+}
+.task{
+	background-color: floralwhite;
+	height: 44px;
+	padding: 6px 8px;
+	margin-top: 12px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 2px solid #43737d ;
+	cursor: pointer;
+}
+#taskDescription{
+	color: #43737d;
+	font-weight: bold;
+	font-size: 16px;
+}
+.task button{
+	color:#43737d;
+	background-color: floralwhite;
+	width: 40px;
+	border-radius: 2px;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+.completed{
+    text-decoration: line-through;
+}
